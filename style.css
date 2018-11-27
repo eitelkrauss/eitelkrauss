@@ -3,22 +3,32 @@ html, body {
   padding: 0;
 }
 
-p {
-  margin: 0.5rem 0 0 0;
-}
-
 #mainMenu {
   display: grid;
   grid-gap: 0.5rem;
   padding: 0.5rem;
   max-width: 700px;
-  margin: 25vh auto;
+  margin: 20vmax auto;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   grid-auto-rows: 100px;
   font-family: calibri, helvetica;
   color: grey;
+  opacity: 0;
+  animation: menuLoad 750ms ease-in 500ms;
+  animation-fill-mode: forwards;
+}
+#mainMenu :hover {
+  color: lightgray;
 }
 
+@keyframes menuLoad {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .menuItem {
   display: flex;
   flex-direction: column;
@@ -26,8 +36,11 @@ p {
   align-items: center;
   border: 1px solid lightgray;
   border-radius: 5px;
-  color: gray;
+  transition: color 300ms ease-in-out;
 }
 .menuItem i {
   font-size: 1.5rem;
+}
+.menuItem p {
+  margin: 0.5rem 0 0 0;
 }
