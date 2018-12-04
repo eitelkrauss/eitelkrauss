@@ -7,6 +7,24 @@
     opacity: 1;
   }
 }
+@keyframes menuPopUp {
+  from {
+    opacity: 0;
+    transform: scale(0.1) rotatex(-90deg);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes menuOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    transform: rotateX(90deg);
+    opacity: 0;
+  }
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -29,16 +47,7 @@ a {
   animation: menuLoad 500ms ease-in-out forwards;
 }
 #mainMenu.is-active {
-  animation: menuOut 500ms ease-in-out forwards;
-}
-@keyframes menuOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    transform: rotateX(90deg);
-    opacity: 0;
-  }
+  animation: menuOut 300ms ease-in-out forwards;
 }
 
 .menuItem {
@@ -65,30 +74,18 @@ a {
   visibility: hidden;
   display: flex;
   flex-direction: column;
-  border: 0.5px dashed lightgray;
   font-family: calibri, helvetica;
   color: gray;
+  font-size: 0.75rem;
   padding: 2.5rem 1.5rem;
   max-width: 800px;
   position: absolute;
   left: 0;
   top: 0;
 }
-#work a {
-  color: inherit;
-}
 #work.is-active {
-  animation: menuPopUp 800ms ease-in;
+  animation: menuPopUp 500ms ease-in;
   visibility: visible;
-}
-@keyframes menuPopUp {
-  from {
-    opacity: 0;
-    transform: scale(0.1) rotatex(-90deg);
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 .close {
@@ -96,6 +93,7 @@ a {
   top: 3px;
   right: 9px;
   font-size: 1.5rem;
+  color: lightgray;
 }
 
 .workItem {
@@ -104,4 +102,36 @@ a {
 .workItem p {
   font-size: 0.8rem;
   line-height: 1.2rem;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  font-family: calibri, helvetica;
+  visibility: hidden;
+  color: gray;
+  font-size: 0.75rem;
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  top: 0;
+}
+#about.is-active {
+  visibility: visible;
+  animation: menuPopUp 500ms ease-in;
+}
+#about #aboutClose {
+  left: 12px;
+}
+
+#personal p {
+  margin: 1.5rem;
+}
+
+#retrato {
+  background: url(eitel.jpg) no-repeat;
+  background-size: contain;
+  background-position-x: 70px;
+  height: 100%;
+  min-width: 100%;
 }

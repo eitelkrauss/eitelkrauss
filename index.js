@@ -11,12 +11,14 @@ for (i = 1; i< menuButton.length; i++) {
     }, false)
 }
 
-close = document.querySelector('.close')
+close = document.querySelectorAll('.close')
 
-close.addEventListener('click', function(event) {
-    event.preventDefault()
-    parent = close.parentElement
-    console.log(parent)
-    parent.classList.toggle('is-active')
-    mainMenu.classList.toggle('is-active')
-})
+for (c = 0; c< close.length; c++) {
+    close[c].addEventListener('click', function (event) {
+        event.preventDefault()
+        parent = this.parentElement
+        console.log(parent)
+        parent.classList.toggle('is-active')
+        mainMenu.classList.toggle('is-active')
+    }, false)
+}
