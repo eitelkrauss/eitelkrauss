@@ -1,6 +1,19 @@
+@keyframes menuLoad {
+  from {
+    opacity: 0;
+    transform: rotateX(-90deg) scale(0.6);
+  }
+  to {
+    opacity: 1;
+  }
+}
 html, body {
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 #mainMenu {
@@ -12,35 +25,83 @@ html, body {
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   grid-auto-rows: 100px;
   font-family: calibri, helvetica;
-  color: grey;
   opacity: 0;
-  animation: menuLoad 750ms ease-in 500ms;
-  animation-fill-mode: forwards;
+  animation: menuLoad 500ms ease-in-out forwards;
 }
-#mainMenu :hover {
-  color: lightgray;
+#mainMenu.is-active {
+  animation: menuOut 500ms ease-in-out forwards;
 }
-
-@keyframes menuLoad {
+@keyframes menuOut {
   from {
-    opacity: 0;
-  }
-  to {
     opacity: 1;
   }
+  to {
+    transform: rotateX(90deg);
+    opacity: 0;
+  }
 }
+
 .menuItem {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: gray;
   border: 1px solid lightgray;
   border-radius: 5px;
   transition: color 300ms ease-in-out;
+}
+.menuItem:hover {
+  color: lightgray;
 }
 .menuItem i {
   font-size: 1.5rem;
 }
 .menuItem p {
   margin: 0.5rem 0 0 0;
+}
+
+#work {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 0.5px dashed lightgray;
+  font-family: calibri, helvetica;
+  color: gray;
+  padding: 2.5rem 1.5rem;
+  max-width: 800px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#work a {
+  color: inherit;
+}
+#work.is-active {
+  animation: menuPopUp 800ms ease-in;
+  visibility: visible;
+}
+@keyframes menuPopUp {
+  from {
+    opacity: 0;
+    transform: scale(0.1) rotatex(-90deg);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.close {
+  position: absolute;
+  top: 3px;
+  right: 9px;
+  font-size: 1.5rem;
+}
+
+.workItem {
+  margin-top: 1rem;
+}
+.workItem p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
 }
