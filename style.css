@@ -84,7 +84,7 @@ a {
   top: 0;
 }
 #work .workItem a {
-  color: orange;
+  color: #ffdd47;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -94,10 +94,10 @@ a {
 }
 
 .close {
-  position: absolute;
-  top: 3px;
-  right: 9px;
-  font-size: 2rem;
+  position: fixed;
+  top: 0;
+  right: 12px;
+  font-size: 2.5rem;
   color: lightgray;
 }
 
@@ -126,16 +126,16 @@ a {
   animation: menuPopUp 500ms ease-in;
 }
 #about #aboutClose {
-  left: 12px;
+  color: #ffdd47;
 }
 
 #personal p {
-  margin: 1.5rem;
+  margin: 2rem 1.5rem;
 }
 
 #retrato {
-  background: url(eitel2.jpg) no-repeat center/75%;
+  background: url(eitel2.jpg) no-repeat center;
   background-size: cover;
-  height: 100%;
+  min-height: 30vh;
   width: 100%;
 }
