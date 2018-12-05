@@ -134,7 +134,8 @@ a {
 }
 
 #retrato {
-  background: url(eitel.jpeg) no-repeat center;
+  background: url(eitel2.jpg) no-repeat center/75%;
+  background-size: cover;
   height: 100%;
   width: 100%;
 }
