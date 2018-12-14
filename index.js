@@ -7,7 +7,7 @@ for (i = 1; i< menuButton.length; i++) {
         elID = document.querySelector(this.hash)
         elID.classList.toggle('is-active')
         mainMenu.classList.toggle('is-active')
-        console.log(this)
+        //console.log(this)
     }, false)
 }
 
@@ -17,7 +17,7 @@ for (c = 0; c< close.length; c++) {
     close[c].addEventListener('click', function (event) {
         event.preventDefault()
         parent = this.parentElement
-        console.log(parent)
+        //console.log(parent)
         parent.classList.toggle('is-active')
         mainMenu.classList.toggle('is-active')
     }, false)

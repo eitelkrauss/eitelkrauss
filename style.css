@@ -16,15 +16,27 @@
     opacity: 1;
   }
 }
+@media (min-width: 600px) {
+  .close {
+    position: absolute;
+  }
+}
 html, body {
   margin: 0 auto;
   padding: 0;
-  height: 100vh;
-  max-width: 600px;
 }
 
 a {
   text-decoration: none;
+}
+
+p {
+  line-height: 1.2rem;
+}
+
+.contenido {
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 #mainMenu {
@@ -73,6 +85,7 @@ a {
   padding: 2.5rem 1.5rem;
   max-width: 600px;
   margin: 0 auto;
+  position: relative;
 }
 #work .workItem a {
   color: #ffdd47;
@@ -106,6 +119,7 @@ a {
   font-family: calibri, helvetica;
   color: gray;
   font-size: 0.75rem;
+  position: relative;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -118,13 +132,25 @@ a {
 }
 
 #personal p {
-  margin: 2rem 1.5rem;
+  margin: 1.5rem 1.5rem;
+}
+
+.hashtags {
+  margin: 1.5rem 1.5rem;
+  padding: 0;
+}
+.hashtags li {
+  display: inline;
+  margin-right: 0.25rem;
+}
+.hashtags a {
+  color: #1DA1F2;
 }
 
 #retrato {
   background: url(eitel.jpg) no-repeat center;
   background-size: cover;
-  min-height: 35vh;
+  min-height: 42vh;
   width: 100%;
 }
 
