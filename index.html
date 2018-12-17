@@ -12,7 +12,7 @@
     <div class="contenido">
       <div id="mainMenu"><a class="menuItem" id="home" href="index.html">E K</a><a class="menuItem" href="#work"><i class="fas fa-briefcase"></i>
           <p>work</p></a><a class="menuItem" href="#about"><i class="fas fa-file"></i>
-          <p>about</p></a><a class="menuItem" href="mailto:eitelkrauss90@gmail.com"><i class="fas fa-envelope"></i>
+          <p>about</p></a><a class="menuItem" href="#contact"><i class="fas fa-envelope"></i>
           <p>contact</p></a></div>
       <div id="work"><a class="close" id="workClose" href="#home">&times</a>
         <div class="workItem"><a href="https://pertraly.netlify.com">Pertraly</a>
@@ -31,12 +31,16 @@
       <div id="about"><a class="close" id="aboutClose" href="#home">&times</a>
         <div class="data" id="personal">
           <div id="retrato"></div>
-          <p>Eitel Krauss Ortíz</br>april 1990 - Guayaquil, Ecuador</br>pgp.mit.edu: 54A910B55294EEC6</br>@eitelkrauss</p>
+          <p>Eitel Krauss Ortíz</br>april 1990 - Guayaquil, Ecuador</br>GPG: 54A910B55294EEC6</br><a href="https://twitter.com/eitelkrauss"><i class="fab fa-twitter"></i>@eitelkrauss</a></p>
+          <h3>About Me</h3>
           <p>designer + developer</p>
+          <p>I got started in graphic design and visual communications; I developed an affinity for classic clean grid-based and minimalist design.  Amazed by the web and technology today I couldn't help slowly gravitating torward web design and front-end development.</br>I'm now working to become a full-stack developer with strong design fundamentals, both in aesthetics and thinking process. </p>
+          <p>PS: Also fascinated by data science/visualization, PWAs, 3D animation and generative art, cryptography/GPG, Bitcoin.</p>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo eaque possimus cumque saepe nesciunt provident quae iure ratione. Nemo fuga ipsa non ad quibusdam voluptatum dolorum. Dolore voluptates placeat illo aut sequi error.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam inventore quasi odio quia et natus ut voluptates est, ea earum adipisci aperiam? Quaerat consequatur quibusdam a labore cum nobis officia.</p>
-          <p>web design/development:</br>HTML, CSS, JavaScript, PHP</p>
+          <h3>Skillset</h3>
+          <p>web design/development:</br>I try to stay away from libraries or frameworks and like to use just plain HTML/CSS/JavaScript to optimize performance.</br>Also PHP, WebAssembly, some Sass.</p>
           <p>server/back-end:</br>C, C++, Python, MySQL</p>
+          <p>other:</br>Command Line, Git/Github, REST APIs, Node/npm</p>
           <p>Adobe Creative Suite (Ai, Ps, InDesign)</p>
           <ul class="hashtags">
             <li><a class="twitterHashtag" href="https://twitter.com/search?q=%23design&amp;src=tyah">#design</a></li>
@@ -49,6 +53,15 @@
             <li><a class="twitterHashtag" href="https://twitter.com/search?q=%23bitcoin&amp;src=tyah">#bitcoin</a></li>
           </ul>
         </div>
+      </div>
+      <div id="contact"><a class="close" id="aboutClose" href="#home">&times</a>
+        <h3>Get in touch!</h3>
+        <form class="contactForm" action="contactform.php" method="post">
+          <input type="text" name="name" placeholder="Full Name">
+          <input type="text" name="e-mail" placeholder="E-mail">
+          <textarea name="message" placeholder="Your Message ..."></textarea>
+          <button type="submit" name="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
       </div>
     </div>
     <p id="copy">© Copyright 2018 Eitel Krauss</p>
