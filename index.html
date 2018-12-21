@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width" initial-scale="1" maximum-scale="1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -51,7 +51,7 @@
       </div>
       <div id="contact"><a class="close" id="aboutClose" href="#home">&times</a>
         <h3>Get in touch!</h3>
-        <form class="contactForm" action="contactform.php" method="post">
+        <form class="contactForm" name="contactForm" method="post" data-netlify="true">
           <input type="text" name="name" placeholder="Full Name">
           <input type="text" name="e-mail" placeholder="E-mail">
           <textarea name="message" placeholder="Your Message ..."></textarea>
