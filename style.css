@@ -180,11 +180,15 @@ p {
 #contact form {
   max-width: 300px;
 }
-#contact button, #contact input, #contact textarea {
+#contact form textarea {
+  height: 150px;
+}
+#contact form button, #contact form input, #contact form textarea {
   font: inherit;
   width: 100%;
   margin-top: 0.5rem;
   padding: 0.5rem;
+  border-radius: 5px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
