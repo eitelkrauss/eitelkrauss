@@ -181,18 +181,23 @@ p {
   max-width: 300px;
 }
 #contact form textarea {
-  height: 150px;
+  height: 120px;
 }
 #contact form button, #contact form input, #contact form textarea {
   font: inherit;
   width: 100%;
   margin-top: 0.5rem;
   padding: 0.5rem;
-  border-radius: 5px;
+  border: none;
+  border-bottom: 1px dashed lightgray;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-appearance: none;
+}
+
+#contact form button {
+  border: none;
 }
 
 #copy {
