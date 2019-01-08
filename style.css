@@ -31,7 +31,7 @@ a {
 }
 
 p {
-  line-height: 1.2rem;
+  line-height: 1.4rem;
 }
 
 .contenido {
@@ -74,6 +74,11 @@ p {
 .menuItem p {
   font-size: 0.8rem;
   margin: 0.5rem 0 0 0;
+}
+
+h3 {
+  font-size: 1.7rem;
+  color: lightgray;
 }
 
 #work {
@@ -138,8 +143,21 @@ p {
 #personal h3 {
   margin: 3rem 1.5rem 1.5rem 1.5rem;
 }
-#personal a {
-  color: #1DA1F2;
+
+#datos {
+  text-align: center;
+  font-family: courier;
+  font-size: .7rem;
+}
+
+#datos p {
+  margin-bottom: 1rem;
+}
+
+#datos a {
+  color: inherit;
+  margin: 0 .5rem;
+  font-size: 1rem;
 }
 
 .hashtags {
@@ -152,12 +170,13 @@ p {
 }
 .hashtags a {
   color: #1DA1F2;
+  font-size: 1rem;
 }
 
 #retrato {
   background: url(eitel.jpg) no-repeat center;
   background-size: cover;
-  min-height: 42vh;
+  min-height: 45vh;
   width: 100%;
 }
 
@@ -178,18 +197,18 @@ p {
   display: flex;
 }
 #contact form {
-  max-width: 300px;
+  max-width: 400px;
 }
 #contact form textarea {
-  height: 120px;
+  height: 150px;
 }
 #contact form button, #contact form input, #contact form textarea {
   font: inherit;
   width: 100%;
-  margin-top: 0.5rem;
+  margin-top: 0.7rem;
   padding: 0.5rem;
   border: none;
-  border-bottom: 1px dashed lightgray;
+  border-bottom: 1px solid lightgray;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -198,6 +217,9 @@ p {
 
 #contact form button {
   border: none;
+  height: 60px;
+  color: #29d699;
+  font-size: 1rem;
 }
 
 #copy {
