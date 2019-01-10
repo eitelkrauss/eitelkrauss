@@ -149,7 +149,7 @@ h3 {
   text-align: center;
   font-family: courier;
   font-size: .7rem;
-  margin-top: 2.5rem;
+  margin-top: 1.8rem;
 }
 
 #datos p {
@@ -225,9 +225,16 @@ h3 {
 
 #contact form button {
   border: none;
+  border-radius: 5px;
   height: 60px;
   color: #34e2a5;
   font-size: 1.2rem;
+  transition: all 300ms ease-in;
+}
+
+#contact form button:hover {
+  background-color: rgb(196, 195, 195);
+  color: #42fcbb;
 }
 
 #copy {
