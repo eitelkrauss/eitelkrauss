@@ -88,7 +88,7 @@ h3 {
   color: gray;
   font-size: 0.8rem;
   padding: 2.5rem 1.5rem;
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
   position: relative;
 }
@@ -126,7 +126,7 @@ h3 {
   color: gray;
   font-size: 0.8rem;
   position: relative;
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
 }
 #about.is-active {
@@ -203,7 +203,7 @@ h3 {
   color: gray;
   font-size: 0.8rem;
   position: relative;
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 2.5rem 1.5rem;
   align-items: center;
