@@ -236,7 +236,7 @@ h3 {
   border: solid 1px rgba(214, 214, 214, 0.3);
   border-radius: 5px;
   height: 60px;
-  background-color: rgba(227, 227, 227, 0.9);
+  background-color: rgba(227, 227, 227, 0.7);
   transition: all 300ms ease-in;
 }
 
@@ -249,7 +249,7 @@ h3 {
 
 #contact form button:hover {
   background-color: rgba(227, 227, 227, 0);
-  border: solid 1px rgba(214, 214, 214, 0.9);  
+  border: solid 1px rgba(214, 214, 214, 0.7);  
 }
 
 #contact form button:hover h3 {
