@@ -16,11 +16,14 @@
     opacity: 1;
   }
 }
-@media (min-width: 600px) {
+/*@media (min-width: 600px) {
   .close {
     position: absolute;
   }
-}
+  #about {
+    position: relative;
+  }
+}*/
 html, body {
   margin: 0 auto;
   padding: 0;
@@ -128,6 +131,7 @@ h3 {
   position: relative;
   max-width: 500px;
   margin: 0 auto;
+  border: solid 1px rgba(227, 227, 227, 0.7);
 }
 #about.is-active {
   animation: menuPopUp 500ms ease-in;
