@@ -34,7 +34,7 @@ a {
 }
 
 p {
-  line-height: 1.3rem;
+  line-height: 1.7rem;
 }
 
 .contenido {
@@ -75,7 +75,7 @@ p {
   font-size: 1.5rem;
 }
 .menuItem p {
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin: 0.5rem 0 0 0;
 }
 
@@ -90,20 +90,83 @@ h3 {
   font-family: calibri, helvetica;
   color: gray;
   font-size: 0.8rem;
-  padding: 2.5rem 1.5rem;
   max-width: 500px;
   margin: 0 auto;
   position: relative;
+  /*border: solid 1px rgba(227, 227, 227, 0.7);*/
 }
-#work .workItem a {
-  color: #ffdd47;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
+
 #work.is-active {
   animation: menuPopUp 500ms ease-in;
   display: flex;
 }
+
+.workItem {
+  display: flex;
+  margin: 5rem 0;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+#GraphicDesign:hover h2 {
+  color: rgb(67, 238, 178);
+} 
+
+
+#GraphicDesign h2:nth-child(1) {
+  font-size: 14.5vmin;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  right: 2.4vmin;
+  transition: color 300ms ease-in-out;
+  
+}
+
+#GraphicDesign h2:nth-child(2) {
+  font-size: 18.5vmin;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  align-self: flex-end;
+  transition: color 300ms ease-in-out;
+  left: 2vmin;
+  top: -3vmin;
+
+}
+
+#WebDev {
+  padding: 2rem;
+}
+
+#WebDev:hover h2 {
+  color:rgb(67, 238, 178);
+} 
+
+#WebDev h2:nth-child(1) {
+  font-size: 8vmin;
+  margin: 2rem 0 0 0;
+  font-family: menlo, monospace;
+  position: relative;
+  
+  transition: color 300ms ease-in-out;
+  
+}
+
+#WebDev h2:nth-child(2) {
+  font-size: 8vmin;
+  margin: 0px;
+  font-family: menlo, monospace;
+  position: relative;
+  
+  transition: color 300ms ease-in-out; 
+  
+}
+
+
+
+
+
 
 .close {
   position: fixed;
@@ -114,20 +177,14 @@ h3 {
   color: lightgray;
 }
 
-.workItem {
-  margin-top: 1rem;
-}
-.workItem p {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
-}
+
 
 #about {
   display: none;
   flex-direction: column;
   font-family: calibri, helvetica;
   color: gray;
-  font-size: 0.8rem;
+  font-size: 1rem;
   position: relative;
   max-width: 500px;
   margin: 0 auto;
@@ -143,14 +200,15 @@ h3 {
 }
 
 #personal p {
-  margin: 1.5rem 10vw;
+  margin: 1.8rem 0;
 }
 #personal h3 {
-  margin: 3rem 10vw 1.5rem 10vw;
+  margin: 3rem 0 2rem 0;
 }
 
 .skillset {
-  margin-left: 8vw;
+  margin-left: 0;
+  padding-left: 1.7rem;
 } 
 
 .skillset li {
@@ -160,7 +218,7 @@ h3 {
 #datos {
   text-align: center;
   font-family: courier;
-  font-size: .65rem;
+  font-size: .8rem;
   margin-top: 1.8rem;
 }
 
@@ -172,6 +230,11 @@ h3 {
   color: inherit;
   margin: 0 .5rem;
   font-size: 1rem;
+}
+
+#cv {
+  
+  padding: 10vmin;
 }
 
 .hashtags {
