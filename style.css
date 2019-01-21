@@ -143,14 +143,14 @@ h3 {
 }
 
 #personal p {
-  margin: 1.5rem 1.5rem;
+  margin: 1.5rem 3.5rem;
 }
 #personal h3 {
-  margin: 3rem 1.5rem 1.5rem 1.5rem;
+  margin: 3rem 1.5rem 1.5rem 3.5rem;
 }
 
 .skillset {
-  margin-left: 1.3rem;
+  margin-left: 3rem;
 } 
 
 .skillset li {
@@ -160,7 +160,7 @@ h3 {
 #datos {
   text-align: center;
   font-family: courier;
-  font-size: .7rem;
+  font-size: .65rem;
   margin-top: 1.8rem;
 }
 
@@ -198,6 +198,7 @@ h3 {
   background-size: cover;
   min-height: 45vh;
   width: 100%;
+  border-bottom: solid 32px rgb(67, 238, 178);
 }
 
 #contact {
