@@ -108,7 +108,7 @@ h3 {
 }
 
 
-/*=================WORk and portfoio===============*/
+/*================= WORk and portfoio ===============*/
 
 #work {
   display: none;
@@ -166,9 +166,9 @@ h3 {
   color:rgb(67, 238, 178);
 } 
 
-#WebDev h2:nth-child(1) {
+#WebDev h2 {
   font-size: 5vmax;
-  margin: 0;
+  margin: 0 3vmin;
   font-family: menlo, monospace;
   position: relative;
   transition: color 300ms ease-in-out;
@@ -176,7 +176,7 @@ h3 {
 
 
 
-/*============ABOUT PERSONA DATA===========*/
+/*============ ABOUT PERSONA DATA ===========*/
 
 #about {
   display: none;
@@ -268,7 +268,7 @@ h3 {
 }
 
 
-/*==============CONTACT AND FORM========*/
+/*============== CONTACT AND FORM ========*/
 
 
 #contact {
@@ -335,7 +335,7 @@ h3 {
   color: #67fdc8; 
 }
 
-/*--------COPYRITE------*/
+/*-------- COPYRITE ------*/
 
 #copy {
   position: fixed;
