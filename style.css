@@ -20,14 +20,15 @@
     opacity: 1;
   }
 }
-/*@media (min-width: 600px) {
+
+/*=========== MEDIA QUERIES ============*/
+
+@media (min-width: 500px) {
   .close {
     position: absolute;
   }
-  #about {
-    position: relative;
-  }
-}*/
+  
+}
 
 /*======= GENERAI SETTINGS =======*/
 
@@ -167,8 +168,8 @@ h3 {
 } 
 
 #WebDev h2 {
-  font-size: 5vmax;
-  margin: 0 3vmin;
+  font-size: 8vmin;
+  margin: 0 5vmin;
   font-family: menlo, monospace;
   position: relative;
   transition: color 300ms ease-in-out;
@@ -238,8 +239,8 @@ h3 {
   padding: 10vmin;
 }
 
-/*.hashtags {
-  margin: 1.5rem 1.5rem;
+.hashtags {
+  margin: 0;
   padding: 0;
 }
 
@@ -256,7 +257,7 @@ h3 {
 
 .hashtags a:hover {
   color: rgb(86, 188, 252);
-}*/
+}
 
 
 #retrato {
@@ -276,7 +277,7 @@ h3 {
   flex-direction: column;
   font-family: calibri, helvetica;
   color: gray;
-  font-size: 0.8rem;
+  font-size: 1rem;
   position: relative;
   max-width: 500px;
   margin: 0 auto;
