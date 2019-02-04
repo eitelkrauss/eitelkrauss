@@ -39,7 +39,7 @@ h3 {
   position: fixed;
   top: 16px;
   right: 16px;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   color:rgb(67, 238, 178);
   list-style: none;
@@ -124,7 +124,7 @@ h3 {
 }
 
 #cv {
-  padding: 5vmin 9vmin;
+  padding: 5vmin 8vmin;
 }
 
 #retrato {
