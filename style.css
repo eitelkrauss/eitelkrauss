@@ -38,7 +38,7 @@ a {
 }
 
 p {
-  line-height: 1.8rem;
+  line-height: 2rem;
 }
 
 .contenido {
@@ -48,7 +48,7 @@ p {
 
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: lightgray;
   font-family: menlo, calibri, Helvetica;
 }
@@ -94,7 +94,7 @@ h3 {
   flex-direction: column;
   font-family: menlo, calibri, helvetica;
   color: gray;
-  font-size: .9rem;
+  font-size: 1rem;
   position: relative;
   max-width: 500px;
   margin: 0 auto;
@@ -109,6 +109,7 @@ h3 {
   margin: 2.5rem 0 1.2rem 0;
 }
 
+/*
 .skillset {
   margin-left: 0;
   padding-left: 2rem;
@@ -117,7 +118,7 @@ h3 {
 .skillset li {
   padding: .4rem;
 }
-
+*/
 #datos {
   text-align: center;
   font-family: menlo, 'Courier New', Courier, monospace;
@@ -163,7 +164,7 @@ h3 {
 }
 
 #cv {
-  padding: .25rem 14vmin;
+  padding: .25rem 15vmin;
 }
 
 #cv p a {
