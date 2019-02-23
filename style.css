@@ -20,7 +20,7 @@
   }
 
   #personal #cv {
-    padding: .25rem 12vmin;
+    padding: .25rem 10vmin;
   }
 } 
 
@@ -59,7 +59,7 @@ h3 {
   right: 16px;
   font-size: 1.8rem;
   font-weight: bolder;
-  color:rgb(67, 238, 178);
+  color:rgb(88, 255, 197);
   list-style: none;
   text-align: center;
   margin: 0;
