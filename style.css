@@ -14,13 +14,22 @@
     display: inline; 
   }
 
-  #retrato {
-    margin-top: 4vmin;
+  #about #footer a:hover {
+    color: rgb(67, 238, 178);
+  }
+  
+  #footer a:hover i { 
+    transform: translateY(-5px);
+  }
+
+  #personal #retrato {
+    margin-top: 6vmin;
     box-shadow: 1px 5px 5px gray;
+    border-bottom: none;
   }
 
   #personal #cv {
-    padding: .25rem 10vmin;
+    padding: .25rem 8vmin;
   }
 } 
 
@@ -57,7 +66,7 @@ h3 {
   position: fixed;
   top: 14px;
   right: 16px;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bolder;
   color:rgb(88, 255, 197);
   list-style: none;
@@ -71,14 +80,6 @@ h3 {
   text-shadow: .5px 5px 7px gray;
 }
 
-#topRightMenu li i {
-  transition: all .25s ease-in-out;
-}
-
-#topRightMenu li:hover i {
-  transform: translateY(-5px);
-  color:rgb(156, 248, 216);
-}
 
 
 /*============== MENU ===================*/
@@ -155,16 +156,8 @@ h3 {
   transition: all .25s ease-in-out;
 }
 
-#footer a:hover {
-  color: rgb(67, 238, 178);
-}
-
-#footer a:hover i { 
-  transform: translateY(-5px);
-}
-
 #cv {
-  padding: .25rem 2rem;
+  padding: .25rem 2.5rem;
 }
 
 #cv p a {
@@ -179,6 +172,7 @@ h3 {
 #retrato {
   background: url(eitel.jpg) no-repeat center;
   background-size: cover;
+  border-bottom: 20px solid rgb(88, 255, 197);
   min-height: 42vh;
   width: 100%;
 }
