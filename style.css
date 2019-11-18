@@ -27,7 +27,8 @@
     box-shadow: 1px 5px 5px gray;
     border-bottom: none;
     border-radius: 50%;
-    height: 200px;
+    height: 300px;
+    width: 300px;
   }
 
   #personal #cv {
@@ -175,8 +176,8 @@ h3 {
   background: url(eitel.jpg) no-repeat center;
   background-size: cover;
   border-bottom: 20px solid rgb(88, 255, 197);
-  min-height: 250px;
-  width: 250px;
+  height: 42vh;
+  width: 100%;
 }
 
 
