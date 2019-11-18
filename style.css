@@ -93,7 +93,7 @@ h3 {
 #about {
   display: flex;
   flex-direction: column;
-  font-family: Incosolata, calibri, helvetica;
+  font-family: Inconsolata, calibri, helvetica;
   color: gray;
   font-size: 1rem;
   position: relative;
