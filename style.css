@@ -59,7 +59,7 @@ p {
 h3 {
   font-size: 1.8rem;
   color: lightgray;
-  font-family: menlo, calibri, Helvetica;
+  font-family: Inconsolata, calibri, Helvetica;
 }
 
 #topRightMenu {
@@ -93,7 +93,7 @@ h3 {
 #about {
   display: flex;
   flex-direction: column;
-  font-family: menlo, calibri, helvetica;
+  font-family: Incosolata, calibri, helvetica;
   color: gray;
   font-size: 1rem;
   position: relative;
