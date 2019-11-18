@@ -173,6 +173,7 @@ h3 {
   background: url(eitel.jpg) no-repeat center;
   background-size: cover;
   border-bottom: 20px solid rgb(88, 255, 197);
+  border-radius: 50%;
   min-height: 42vh;
   width: 100%;
 }
