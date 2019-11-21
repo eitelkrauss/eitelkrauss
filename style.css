@@ -10,7 +10,7 @@
     display: none;
   } 
 
-  #about #footer ul li:nth-child(4) {
+  #about #footer ul li:nth-child(3) {
     display: inline; 
   }
 
