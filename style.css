@@ -9,11 +9,11 @@
   #topRightMenu {
     display: none;
   } 
-
+/*
   #about #footer ul li:nth-child(3) {
     display: inline; 
   }
-
+*/
   #about #footer a:hover {
     color: rgb(67, 238, 178);
   }
