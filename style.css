@@ -60,7 +60,7 @@ p {
 
 
 h3 {
-  font-size: 1.8rem;
+  font-size: 4.2rem;
   color: lightgray;
   font-family: Inconsolata, calibri, Helvetica;
 }
@@ -101,7 +101,7 @@ h3 {
   font-size: 1rem;
   position: relative;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 18vh auto;
   background-color: #f8f8f8;
 }
 
@@ -110,7 +110,7 @@ h3 {
 }
 
 #personal h3 {
-  margin: 2.5rem 0 1.2rem 0;
+  margin: 2.5rem 0 1.2rem -0.5rem;
 }
 
 /*
