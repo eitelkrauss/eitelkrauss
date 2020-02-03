@@ -22,14 +22,6 @@
     transform: translateY(-5px);
   }
 
-  #personal #retrato {
-    margin: 12vmin auto 3vmin auto;
-    box-shadow: 1px 5px 5px gray;
-    border-bottom: none;
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-  }
 
   #personal #cv {
     padding: .25rem 8vmin;
@@ -60,28 +52,27 @@ p {
 
 
 h3 {
-  font-size: 5rem;
+  font-size: 42vmin;
   color: lightgray;
-  font-family: Inconsolata, calibri, Helvetica;
+  font-family: monospace, Inconsolata, Arial;
+  text-shadow: 2.5vmin 3vmin red,
+               4vmin 5vmin blue,
+               4.5vmin 7.5vmin green,
+               4.8vmin 10vmin yellow;
+  animation: hue 30s infinite linear;
+  -webkit-font-smoothing: antialiased;
 }
 
-#topRightMenu {
-  position: fixed;
-  top: 14px;
-  right: 16px;
-  font-size: 2rem;
-  font-weight: bolder;
-  color:rgb(88, 255, 197);
-  list-style: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
 
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
 }
-#topRightMenu li {
-  padding-bottom: .7rem;
-  text-shadow: .5px 5px 7px gray;
-}
+
 
 
 
@@ -96,21 +87,21 @@ h3 {
 #about {
   display: flex;
   flex-direction: column;
-  font-family: Inconsolata, calibri, helvetica;
+  font-family: Inconsolata, monospace, calibri, helvetica;
   color: gray;
   font-size: 1rem;
   position: relative;
   max-width: 500px;
-  margin: 14vh auto;
+  margin: 0 auto;
   background-color: #f8f8f8;
 }
 
 #personal p {
-  margin: 2rem 0;
+  margin: 6vh 0;
 }
 
 #personal h3 {
-  margin: 2.5rem 0 1.2rem -1rem;
+  margin: 2.5rem 0 1.2rem -5vw;
 }
 
 /*
@@ -150,7 +141,7 @@ h3 {
 #footer a {
   color: inherit;
   margin: 0 .5rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   transition: all .25s ease-in-out;
 }
 
@@ -171,14 +162,6 @@ h3 {
   color: rgb(67, 238, 178);
 }
 
-#retrato {
-  background: url(eitelcuenca.jpeg) no-repeat center;
-  background-size: cover;
-  background-position-x: 0.01vw;
-  border-bottom: 20px solid rgb(88, 255, 197);
-  height: 42vh;
-  width: 100%;
-}
 
 
 /*============== CONTACT AND FORM ========*/
