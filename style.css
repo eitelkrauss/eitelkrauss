@@ -6,14 +6,7 @@
 /*=========== MEDIA QUERIES ============*/
 
 @media(min-width: 500px) {
-  #topRightMenu {
-    display: none;
-  } 
-/*
-  #about #footer ul li:nth-child(3) {
-    display: inline; 
-  }
-*/
+
   #about #footer a:hover {
     color: rgb(67, 238, 178);
   }
@@ -23,7 +16,7 @@
   }
 
 
-  #personal #cv {
+  #personal .cv {
     padding: .25rem 8vmin;
   }
 } 
@@ -33,7 +26,7 @@
 html, body {
   margin: 0 auto;
   padding: 0;
-  background-color: #f8f8f8;
+  background-color: #f1efe9;
 }
 
 a {
@@ -45,21 +38,16 @@ p {
   line-height: 2rem;
 }
 
-.contenido {
-  margin: 0 auto;
-  max-width: 600px;
-}
-
-
 h3 {
-  font-size: 42vmin;
+  font-size: 24vmax;
   color: lightgray;
+  line-height: inherit;
   font-family: monospace, Inconsolata, Arial;
-  text-shadow: 2.5vmin 3vmin red,
-               4vmin 5vmin blue,
-               4.5vmin 7.5vmin green,
-               4.8vmin 10vmin yellow;
-  animation: hue 30s infinite linear;
+  text-shadow: 1vmin 1vmin red,
+               2vmin 2vmin blue,
+               3vmin 3vmin green,
+               4vmin 4vmin yellow;
+  animation: hue 5s infinite linear;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -73,7 +61,13 @@ h3 {
   }
 }
 
+.switchContainer {
+  align-self: flex-end;
+}
 
+.switch {
+  width: 2rem;
+}
 
 
 /*============== MENU ===================*/
@@ -83,17 +77,26 @@ h3 {
 
 
 /*============ ABOUT PERSONA DATA ===========*/
+#cv_es {
+  display: none;
+}
+
+#cv_en {
+  display: block;
+}
 
 #about {
+  margin: 0 auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   font-family: Inconsolata, monospace, calibri, helvetica;
   color: gray;
-  font-size: 1rem;
+  font-size: .8rem;
   position: relative;
-  max-width: 500px;
-  margin: 0 auto;
-  background-color: #f8f8f8;
+  max-width: 45vmax;
+  background-color: inherit;
 }
 
 #personal p {
@@ -104,21 +107,6 @@ h3 {
   margin: 2.5rem 0 1.2rem -5vw;
 }
 
-/*
-.skillset {
-  margin-left: 0;
-  padding-left: 2rem;
-} 
-
-.skillset li {
-  padding: .4rem;
-}
-*/
-#datos {
-  text-align: center;
-  font-family: menlo, 'Courier New', Courier, monospace;
-  font-size: 1em;
-}
 
 #footer ul {
   list-style: none;
@@ -134,9 +122,6 @@ h3 {
   display: none; 
 }
 
-#datos p {
-  margin: 2rem;
-}
 
 #footer a {
   color: inherit;
@@ -149,16 +134,16 @@ h3 {
   transition: all .25s ease-in-out;
 }
 
-#cv {
+.cv {
   padding: .25rem 2.5rem;
 }
 
-#cv p a {
+.cv p a {
   text-decoration: underline;
   transition: color .25s ease-in-out;
 }
 
-#cv p a:hover {
+.cv p a:hover {
   color: rgb(67, 238, 178);
 }
 
@@ -175,7 +160,7 @@ h3 {
 
 #copy {
   margin: .5rem;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   font-family: Arial, Helvetica, sans-serif;
   color: lightgrey;
 }
