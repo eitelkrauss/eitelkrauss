@@ -17,7 +17,7 @@
 
 
   #personal .cv {
-    padding: .25rem 8vmin;
+    padding: .25rem 0;
   }
 } 
 
@@ -154,9 +154,9 @@ input:checked  .es {
   justify-content: space-around;
   font-family: Inconsolata, monospace, calibri, helvetica;
   color: gray;
-  font-size: .8rem;
+  font-size: .9rem;
   position: relative;
-  max-width: 640px;
+  max-width: 600px;
   background-color: inherit;
 }
 
